@@ -24,6 +24,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Routes>
+        <Route path="/" element={ <Coins coins={coins} /> } />
         <Route path="/coincatalogue" element={ <Coins coins={coins} /> } />
         <Route path="/coin/:coinId" element={ <CoinItem  /> } />
       </Routes>

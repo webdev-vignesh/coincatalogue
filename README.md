@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Coin Catalogue
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Coin Catalogue is a web app where you can see live crypto prices, details all fetched from the CoinGecko API.
 
 ## Available Scripts
 

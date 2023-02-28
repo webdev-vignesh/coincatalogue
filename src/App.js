@@ -5,6 +5,7 @@ import Coins from "./components/Coins";
 import CoinItem from "./components/CoinItem";
 import Navbar from "./components/Navbar";
 import { Routes, Route } from "react-router-dom";
+import Page404 from "./components/PageNotFound";
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
         <Route path="/" element={ <Coins coins={coins} /> } />
         <Route path="/coincatalogue" element={ <Coins coins={coins} /> } />
         <Route path="/coin/:coinId" element={ <CoinItem  /> } />
+        <Route path="*" element={ <Page404 /> } />
       </Routes>
     </div>
   );
